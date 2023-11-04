@@ -1,0 +1,214 @@
+.btn {
+    border-radius: 0;
+}
+p {
+ color: silver;
+}
+/*Nav*/
+.nav-item {
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 6rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+/*Nav End*/
+
+/*Header*/
+.carousel-item img {
+    height: 70vh;
+}
+
+.carousel-caption {
+    height: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+
+h5 {
+    text-transform: uppercase;
+}
+
+/*Header End*/
+
+/*Services*/
+.container-fluid-services {
+    background: #fbfbfb;
+}
+
+.services {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/*Services End*/
+
+/*Why choose us*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 7rem;
+}
+
+.left {
+    border: 1px solid silver;
+    grid-row: 2/5;
+    grid-column: 1/3;
+    position: relative;
+    background: white;
+}
+
+.pic {
+    grid-row: 1/6;
+    grid-column: 2/6;
+
+}
+
+.pic {
+    background-image: url(/hw5/images/portfolio-detail.jpg);
+    background-size: cover;
+    background-position: left center;
+}
+
+.right {
+    color: white;
+    grid-row: 5/6;
+    grid-column: 3/6;
+    position: relative;
+    background: black;
+    opacity: 0.60;
+
+}
+
+.btn-why {
+    padding: 10px;
+    border-radius: 0;
+    width: 48%;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-auto-rows: 9rem;
+    }
+
+    .left {
+        grid-row: 1/4;
+        grid-column: 1/6;
+    }
+
+    .pic {
+        grid-row: 4/7;
+        grid-column: 1/6;
+    }
+
+    .right {
+        grid-row: 4/7;
+        grid-column: 1/6; 
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .left {
+        grid-row: 1/4;
+        grid-column: 1/6;
+    }
+
+    .pic {
+        grid-row: 4/6;
+        grid-column: 1/6;
+    }
+
+    .right {
+        grid-row: 4/6;
+        grid-column: 1/6; 
+        text-align: center;
+    }
+}
+
+/*Why choose us End*/
+
+/*Latest works*/
+.awesome {
+    height: 25%;
+    color: white;
+    position: relative;
+    background: black;
+    opacity: 0.60;
+    top: -26%;
+}
+
+/*Latest lorks*/
+
+/*Image bg*/
+.image-bg {
+    background: url('/hw5/images/bg/bg-1.jpg');
+    height: 20rem;
+    background-position: top center;
+    background-attachment: fixed;
+}
+/*Image bg*/
+
+/*Blog*/
+.bg-dark {
+    color: white;
+    height: 8rem;
+    padding: 15px;
+    text-align: center;
+    margin-left: px;
+}
+
+.blog-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*Blog End*/
+
+/*Clients*/
+.container-fluid-clients {
+    background: #fbfbfb;
+}
+/*Clients End*/
+
+/*Map*/ 
+.map-section {
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: black;
+    opacity: 0.15;
+}
+
+.map-section iframe {
+    width: 100%;
+    height: 30vh;
+ }
+/*Map End*/
+
